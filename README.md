@@ -9,6 +9,7 @@ Script creates a folder with current datetime and places all the dashbaords in j
 It creates json output file and prints the summary of dashbard/panel info with matched metric and replaced status.
 
 
+### Note: Be careful replacing metric as there is not un-do avaiable. You will have to dig through dashboard jsons this script saves to revert back your changes.
 
 This utility is written in Python3 and uses request module to query dashboards in Sysdig.
 
